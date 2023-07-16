@@ -286,7 +286,7 @@ nav .icon i {
     line-height: 36px;
 }
 
-.products button {
+.products a {
     margin: 48px 0 100px 0;
     padding: 11px 36px;
     background: #702181;
@@ -294,6 +294,7 @@ nav .icon i {
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-decoration: none;
     color: #fff;
 }
 
@@ -395,7 +396,7 @@ nav .icon i {
     margin: 25px 0 32px 0;
 }
 
-.recipes button {
+.recipes a {
     background: #702181;
     color: #fff;
     padding: 11px 47px;
@@ -404,6 +405,7 @@ nav .icon i {
     line-height: 24px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 /******************** DIFFERENT **********************/
@@ -420,6 +422,8 @@ nav .icon i {
 }
 
 .different h2 {
+    width: 100%;
+    text-align: center;
     font-size: 1.47em;
     font-weight: 400;
     line-height: 36px;
@@ -427,6 +431,7 @@ nav .icon i {
 }
 
 .different p {
+    width: 100%;
     text-align: center;
     font-size: 1em;
     font-weight: 200;
@@ -790,6 +795,8 @@ footer p {
         border-bottom: 5px solid #91B149;
     }
 
+
+
     /***************** STORE ******************/
 
     .store {
@@ -1036,6 +1043,14 @@ footer p {
         text-align: center;
     }
 
+    .hero a {
+        color: #fff;
+    }
+
+    .hero a:hover {
+        color: #FED100;
+    }
+
     /******************** PRODUCTS **********************/
 
     .product-list {
@@ -1048,6 +1063,26 @@ footer p {
         text-align: center;
     }
 
+    .products a {
+        color: #fff;
+    }
+
+    .products a:hover {
+        color: #FED100;
+    }
+
+    /******************** STORE **********************/
+
+    .store a {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+    .store a:hover {
+        color: #FED100;
+        border: 2px solid #FED100;
+    }
+
     /******************** RECIPE **********************/
 
     .recipe-box {
@@ -1057,6 +1092,26 @@ footer p {
     .recipe-box .recipe {
         width: 20%;
         align-items: flex-start;
+    }
+
+    .recipes a {
+        color: #fff;
+    }
+
+    .recipes a:hover {
+        color: #FED100;
+    }
+
+    /******************** DIFFERENT **********************/
+
+    .different a {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+    .different a:hover {
+        color: #FED100;
+        border: 2px solid #FED100;
     }
 
     /******************** GO TO **********************/
@@ -1071,8 +1126,14 @@ footer p {
         margin-right: 50px;
     }
 
-    /******************** SOCIAL POSTS **********************/
+    /******************** FOOTER **********************/
 
+    .links a {
+        color: #fff;
+    }
 
+    .links a:hover {
+        color: #FED100;
+    }
 
 }
